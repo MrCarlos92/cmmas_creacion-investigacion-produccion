@@ -1,7 +1,7 @@
-# Quaranta D.(coordinador). **Creación musical, investigación y producción académica: desafíos para la música en la universidad**
+# Quaranta, D.(coordinador). *Creación musical, investigación y producción académica: desafíos para la música en la universidad*
 
 
-Repositorio del libro digital **Creación musical, investigación y producción académica** (2017) coordinado por Daniel Quaranta. 
+Repositorio de contenidos y recursos.
 
 ## Contenidos del repositorio
 
@@ -30,7 +30,7 @@ Repositorio del libro digital **Creación musical, investigación y producción 
 
 ### archivo madre
 
-Este directorio contiene los archivos de texto del libro en marcado ligero (markdown). Su finalidad es servir como base para una futura edición en soporte digital o impreso.
+Este directorio contiene los archivos de texto del libro en marcado ligero (Markdown). Su finalidad es servir como base para una futura edición en soporte digital o impreso.
 
 ### EPUB
 
