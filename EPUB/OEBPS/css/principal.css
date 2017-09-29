@@ -1,0 +1,373 @@
+/**************************************************/
+/******************* RESETEADOR *******************/
+/**************************************************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Para viejos exploradores */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**************************************************/
+/* Portada */
+.portada {
+	width: calc(100vw - 1em);
+    height: 100vh;
+    margin-top: -1.2em;
+    margin-left: .5em;
+    background: white url(../img/portada.png) no-repeat center center;
+    background-size: contain;
+}
+
+.contraportada {
+	width: calc(100vw - 1em);
+    height: 100vh;
+    margin-top: -1.2em;
+    margin-left: .5em;
+    background: white url(../img/contraportada.png) no-repeat center center;
+    background-size: contain;
+}
+/* Cuerpo"*/
+body {
+	margin: 4em;
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        margin: 5em;
+    }
+}
+
+/* Secciones */
+section {
+	border-bottom: solid .05em;
+}
+
+section + section {
+	margin-top: 10em;
+	border-top: solid .05em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+}
+
+.sin-borde {
+	border-bottom: none;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, "Times New Roman", serif;
+	margin-bottom: 1em;
+	text-align: center;
+	-moz-hyphens: none;
+	-webkit-hyphens: none;
+	-o-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+* + h1 {
+	margin-top: 5em;
+}
+
+* + h2 {
+	margin-top: 3em;
+}
+
+* + h3 {
+	margin-top: 2em;
+}
+
+* + h4, h5, h6 {
+	margin-top: 1em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+/* Párrafos */
+h1 + p {
+	margin-top: 1em;
+}
+
+p, blockquote, li {
+	font-family: Georgia, "Times New Roman" serif;
+	font-size: 1em;
+	text-align: justify;
+	line-height: 1.5em;
+	-moz-hyphens: none;
+	-webkit-hyphens: none;
+	-o-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+p + p {
+	text-indent: 1.5em;
+	margin-top: .5em;
+}
+
+blockquote {
+	font-size: .834em;
+	margin: 2.5em 1.5em;
+	line-height: 1em;
+}
+
+blockquote + blockquote {
+	margin-top: -.75em;
+	text-indent: 1.5em;
+}
+
+.izquierda {
+	text-align: left;
+}
+
+.centrado {
+	text-indent: 0em;
+	text-align: center;
+	line-height: 2em;
+}
+
+.derecha {
+	font-size: .834em;
+	text-align: right justify !important;
+	line-height: 1em;
+	margin-left: 40%;
+
+}
+
+.frances {
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+	text-align: justify;
+}
+
+.frances + .frances {
+	margin-top: .5em;
+}
+
+* + .frances {
+	margin-top: 1em;
+}
+
+.epigrafe {
+	font-size: .834em;
+	text-align: right;
+	line-height: 1em;
+	margin-left: 40%;
+}
+
+.epigrafe + .epigrafe {
+	margin-top: .5em;
+}
+
+.epigrafe + p {
+	margin-top: 2em;
+	text-indent: 0;
+}
+
+* + .epigrafe {
+	margin-top: 2em;
+}
+
+.sangria {
+  text-indent: 1.5em;
+}
+
+.sin-sangria {
+  text-indent: 0;
+}
+
+.espacio-arriba {
+  margin-top: 2em
+}
+
+.espacio-abajo {
+	margin-bottom: 2em;
+}
+
+.espacio-arriba2 {
+  margin-top: 4em
+}
+
+.espacio-abajo2 {
+	margin-bottom: 4em;
+}
+
+.sin-sangria {
+    text-indent: 0;
+}
+
+.legal {
+	font-size: .9em;
+	line-height: 1em;
+}
+/* Fuentes */
+i, em {
+	font-style: italic;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+@media not amzn-mobi {  /* Para cualquier dispositivo excepto Mobi */
+	.versalitas {
+		font-variant: small-caps;
+		font-size: .8em;
+		moz-hyphens: auto;
+		-webkit-hyphens: auto;
+		-o-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
+	}
+}
+
+@media amzn-mobi {  /* Para Mobi ya que no soporta el atributo «font-variant» */
+    .versalita {
+        text-transform: uppercase;
+        font-size: .8em;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        -o-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+}
+
+/* Listas */
+ol, ul {
+	margin: 2em 3em 2em 3em;
+}
+
+ul {
+	list-style-image: url('../img/ul.png');
+}
+
+li {
+	margin-top: 1.5em;
+}
+
+/* Enlaces */
+a, a:link, a:visited {
+	text-decoration: underline gray;
+	color: gray;
+}
+
+/* Imágenes */
+figure {
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
+  font-size: .834em;
+  margin: 1em 0em 1em 0em;
+}
+
+figure img {
+	height: auto;
+ 	max-width: 80%;
+
+}
+
+figure + figure {
+	margin-top: 5em;
+}
+
+p + figure {
+	margin-top: 3em;
+}
+
+figure + p {
+	margin-top: 3em;
+}
+
+.logoCMMAS {
+	height: auto;
+ 	max-width: 60%;
+}
+
+.isbn {
+	height: auto;
+	max-width: 60%;
+	margin: auto;
+}
+
+/* Superíndices y subíndices */
+sup, sub {
+    font-size: .75em;
+    vertical-align: super;
+}
+
+sub {
+    vertical-align: sub;
+}
+
+.sup {
+	font-size: .55em;
+}
+/* Notas */
+
+/*Estilo si la ventana es igual o mayor a 1025px (monitores)*/
+@media screen and (min-width: 1025px) {
+    body {
+        margin: 5em;
+    }
+}

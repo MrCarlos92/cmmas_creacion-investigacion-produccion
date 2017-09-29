@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" xml:lang="es" unique-identifier="uid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" version="3.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:language>es</dc:language>
+        <dc:title>Creación musical, investigación y producción académica</dc:title>
+        <dc:creator>Daniel Quaranta (coordinador)</dc:creator>
+        <dc:publisher>Centro Mexicano para la Música y las Artes Sonoras</dc:publisher>
+        <dc:identifier id="uid">Creacion musical, investigacion y produccion academica v1.0.0</dc:identifier>
+        <meta property="dcterms:modified">2017-08-30T16:10:35Z</meta>
+        <meta property="rendition:layout">reflowable</meta>
+        <meta property="ibooks:specified-fonts">true</meta>
+    </metadata>
+    <manifest>
+        <item href="toc.ncx" id="id_toc_ncx" media-type="application/x-dtbncx+xml" />
+        <item href="nav.xhtml" id="id_nav_xhtml" media-type="application/xhtml+xml" properties="nav" />
+        <item href="css/principal.css" id="id_principal_css" media-type="text/css" />
+        <item href="img/figura1.png" id="id_figura1_png" media-type="image/png" />
+        <item href="img/figura2.png" id="id_figura2_png" media-type="image/png" />
+        <item href="img/figura3.png" id="id_figura3_png" media-type="image/png" />
+        <item href="img/figura4.png" id="id_figura4_png" media-type="image/png" />
+        <item href="img/figura5.png" id="id_figura5_png" media-type="image/png" />
+        <item href="img/figura6.png" id="id_figura6_png" media-type="image/png" />
+        <item href="img/figura7.png" id="id_figura7_png" media-type="image/png" />
+        <item href="img/figura8.png" id="id_figura8_png" media-type="image/png" />
+        <item href="img/isbn.png" id="id_isbn_png" media-type="image/png" />
+        <item href="img/logoCMMAScolor.png" id="id_logoCMMAScolor_png" media-type="image/png" />
+        <item href="img/portada.png" id="id_portada_png" media-type="image/png" properties="cover-image" />
+        <item href="img/contraportada.png" id="id_contraportada_png" media-type="image/png" />
+        <item href="img/ul.png" id="id_ul_png" media-type="image/png" />
+        <item href="xhtml/000-portada.xhtml" id="id_000-portada_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/001-portadilla.xhtml" id="id_001-portadilla_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/002-legal.xhtml" id="id_002-legal_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/003-notaedic.xhtml" id="id_003-notaedic_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/004-indice.xhtml" id="id_004-indice_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/005-presentacion.xhtml" id="id_005-presentacion_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/006-nota-del-coordinador.xhtml" id="id_006-nota-del-coordinador_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/007-c1.xhtml" id="id_007-c1_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/008-n1.xhtml" id="id_008-n1_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/009-c2.xhtml" id="id_009-c2_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/010-n2.xhtml" id="id_010-n2_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/011-c3.xhtml" id="id_011-c3_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/012-n3.xhtml" id="id_012-n3_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/013-c4.xhtml" id="id_013-c4_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/014-n4.xhtml" id="id_014-n4_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/015-c5.xhtml" id="id_015-c5_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/016-n5.xhtml" id="id_016-n5_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/017-c6-1.xhtml" id="id_017-c6-1_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/018-c6-2.xhtml" id="id_018-c6-2_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/019-c6-3.xhtml" id="id_019-c6-3_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/020-n6.xhtml" id="id_020-n6_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/021-c7.xhtml" id="id_021-c7_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/022-n7.xhtml" id="id_022-n7_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/023-c8.xhtml" id="id_023-c8_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/024-n8.xhtml" id="id_024-n8_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/025-c9.xhtml" id="id_025-c9_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/026-c10.xhtml" id="id_026-c10_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/027-n10.xhtml" id="id_027-n10_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/028-c11.xhtml" id="id_028-c11_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/029-n11.xhtml" id="id_029-n11_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/030-c12.xhtml" id="id_030-c12_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/031-n12.xhtml" id="id_031-n12_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/032-sobre-los-autores.xhtml" id="id_032-sobre-los-autores_xhtml" media-type="application/xhtml+xml" />
+        <item href="xhtml/033-contraportada.xhtml" id="id_033-contraportada_xhtml" media-type="application/xhtml+xml" />
+    </manifest>
+    <spine toc="id_toc_ncx">
+        <itemref idref="id_000-portada_xhtml"/>
+        <itemref idref="id_001-portadilla_xhtml"/>
+        <itemref idref="id_002-legal_xhtml"/>
+        <itemref idref="id_003-notaedic_xhtml"/>
+        <itemref idref="id_004-indice_xhtml"/>
+        <itemref idref="id_005-presentacion_xhtml"/>
+        <itemref idref="id_006-nota-del-coordinador_xhtml"/>
+        <itemref idref="id_007-c1_xhtml"/>
+        <itemref idref="id_008-n1_xhtml"/>
+        <itemref idref="id_009-c2_xhtml"/>
+        <itemref idref="id_010-n2_xhtml"/>
+        <itemref idref="id_011-c3_xhtml"/>
+        <itemref idref="id_012-n3_xhtml"/>
+        <itemref idref="id_013-c4_xhtml"/>
+        <itemref idref="id_014-n4_xhtml"/>
+        <itemref idref="id_015-c5_xhtml"/>
+        <itemref idref="id_016-n5_xhtml"/>
+        <itemref idref="id_017-c6-1_xhtml"/>
+        <itemref idref="id_018-c6-2_xhtml"/>
+        <itemref idref="id_019-c6-3_xhtml"/>
+        <itemref idref="id_020-n6_xhtml"/>
+        <itemref idref="id_021-c7_xhtml"/>
+        <itemref idref="id_022-n7_xhtml"/>
+        <itemref idref="id_023-c8_xhtml"/>
+        <itemref idref="id_024-n8_xhtml"/>
+        <itemref idref="id_025-c9_xhtml"/>
+        <itemref idref="id_026-c10_xhtml"/>
+        <itemref idref="id_027-n10_xhtml"/>
+        <itemref idref="id_028-c11_xhtml"/>
+        <itemref idref="id_029-n11_xhtml"/>
+        <itemref idref="id_030-c12_xhtml"/>
+        <itemref idref="id_031-n12_xhtml"/>
+        <itemref idref="id_032-sobre-los-autores_xhtml"/>
+        <itemref idref="id_033-contraportada_xhtml"/>
+    </spine>
+</package>

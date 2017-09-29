@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="es">
+    <head>
+        <meta content="creacion musical, investigacion y produccion academica v1.0.0" name="dtb:uid"/>
+        <meta content="1" name="dtb:depth"/>
+        <meta content="0" name="dtb:totalPageCount"/>
+        <meta content="0" name="dtb:maxPageNumber"/>
+    </head>
+    <docTitle>
+        <text>Creación musical, investigación y producción académica</text>
+    </docTitle>
+    <docAuthor>
+        <text>Daniel Quaranta (coordinador)</text>
+    </docAuthor>
+    <navMap>
+        <navPoint id="navPoint-1" playOrder="1"><navLabel><text>Portada</text></navLabel><content src="xhtml/000-portada.xhtml"/></navPoint>
+        <navPoint id="navPoint-2" playOrder="2"><navLabel><text>Legal</text></navLabel><content src="xhtml/002-legal.xhtml"/></navPoint>
+        <navPoint id="navPoint-3" playOrder="3"><navLabel><text>Índice</text></navLabel><content src="xhtml/004-indice.xhtml"/></navPoint>
+        <navPoint id="navPoint-4" playOrder="4"><navLabel><text>Presentación</text></navLabel><content src="xhtml/005-presentacion.xhtml"/></navPoint>
+        <navPoint id="navPoint-5" playOrder="5"><navLabel><text>Nota del coordinador</text></navLabel><content src="xhtml/006-nota-del-coordinador.xhtml"/></navPoint>
+        <navPoint id="navPoint-6" playOrder="6"><navLabel><text>"La música es mucho más (o menos) que la música": reflexiones sobre investigación musical en el contexto de la academia</text></navLabel><content src="xhtml/007-c1.xhtml"/></navPoint>
+        <navPoint id="navPoint-7" playOrder="7"><navLabel><text>Investigación-Creación: arte y ciencia, política y economía (...o la permanente búsqueda por eludir al Sistema)</text></navLabel><content src="xhtml/009-c2.xhtml"/></navPoint>
+        <navPoint id="navPoint-8" playOrder="8"><navLabel><text>Líneas de fuga: creación e investigación en las academias de arte</text></navLabel><content src="xhtml/011-c3.xhtml"/></navPoint>
+        <navPoint id="navPoint-9" playOrder="9"><navLabel><text>Investigación, escritura y deseo: certificación de calidad</text></navLabel><content src="xhtml/013-c4.xhtml"/></navPoint>
+        <navPoint id="navPoint-10" playOrder="10"><navLabel><text>El descubrimiento del contexto en la música</text></navLabel><content src="xhtml/015-c5.xhtml"/></navPoint>
+        <navPoint id="navPoint-11" playOrder="11"><navLabel><text>Creación académica e investigación musical / Creación musical e investigación académica</text></navLabel><content src="xhtml/017-c6-1.xhtml"/></navPoint>
+        <navPoint id="navPoint-12" playOrder="12"><navLabel><text>Saberes a partir del Sur: cambios epistemológicos de enseñanza e investigación en creación musical en una universidad brasileña</text></navLabel><content src="xhtml/021-c7.xhtml"/></navPoint>
+        <navPoint id="navPoint-13" playOrder="13"><navLabel><text>Cuestión de tiempos. Reflexiones al hilo de la evolución tecnológica del arte sonoro en España</text></navLabel><content src="xhtml/023-c8.xhtml"/></navPoint>
+        <navPoint id="navPoint-14" playOrder="14"><navLabel><text>Programas de Doctorado en Música: escenarios posibles para un desarrollo pleno de artistas-investigadores en la educación superior.</text></navLabel><content src="xhtml/025-c9.xhtml"/></navPoint>
+        <navPoint id="navPoint-15" playOrder="15"><navLabel><text>Investigación y creación en música electroacústica: composición y performance con sistemas multicanales y interfaces gestuales</text></navLabel><content src="xhtml/026-c10.xhtml"/></navPoint>
+        <navPoint id="navPoint-16" playOrder="16"><navLabel><text>¿Qué hacer? Reflexiones sobre la evaluación de las investigaciones teóricoprácticas en música</text></navLabel><content src="xhtml/028-c11.xhtml"/></navPoint>
+        <navPoint id="navPoint-17" playOrder="17"><navLabel><text>El flujo del musicar. La posibilidad de múltiples miradas en los infinitos campos de investigación en la música</text></navLabel><content src="xhtml/030-c12.xhtml"/></navPoint>
+        <navPoint id="navPoint-18" playOrder="18"><navLabel><text>Sobre los autores</text></navLabel><content src="xhtml/032-sobre-los-autores.xhtml"/></navPoint>
+        <navPoint id="navPoint-19" playOrder="19"><navLabel><text>Contraportada</text></navLabel><content src="xhtml/033-contraportada.xhtml"/></navPoint>
+    </navMap>
+</ncx>
